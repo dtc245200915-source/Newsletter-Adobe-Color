@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #7C2D12;
+  --secondary-color: #C2410C;
+  --accent-color: #D97706;
+  --highlight-color: #F59E0B;
+  --deep-color: #431407;
+  --text-color: #292524;
+  --light-bg: #FFF7ED;
+}
+body { background: var(--light-bg); color: var(--text-color); font-family: Arial, sans-serif; }
+.newsletter-header { background: var(--deep-color); color: white; }
+.brand { font-weight: 800; letter-spacing: 3px; }
+.intro-card h2 { color: var(--primary-color); }
+.badge { background: var(--highlight-color); color: #431407; }
+.btn-custom { background: var(--primary-color); color: white; border: 0; }
+.btn-custom:hover { background: var(--secondary-color); color: white; }
+.feature { color: white; }
+.feature-one { background: var(--secondary-color); }
+.feature-two { background: var(--accent-color); color: #431407; }
+.tip-box { background: #FFEDD5; border-left: 6px solid var(--highlight-color); }
+.tip-box h3 { color: var(--primary-color); }
+.newsletter-footer { background: var(--deep-color); color: white; }
